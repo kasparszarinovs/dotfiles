@@ -3,6 +3,7 @@ sudo apt install -y software-properties-common unzip
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+nvm install node
 
 sudo add-apt-repository ppa:ondrej/php
 sudo apt update
